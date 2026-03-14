@@ -4,6 +4,7 @@ A hardware random number generator that uses **real camera pixel noise** as its 
 
 It continuously captures raw frames from your webcam and derives a SHA-256 hash directly from the full pixel data of each frame. The hash is stored in memory and served over HTTP, so any client can request a fresh random hash at any time.
 
+<img src="demo.gif">
 
 ## How it works
 
